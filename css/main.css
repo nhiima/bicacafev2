@@ -1,0 +1,209 @@
+
+/* Here you can start styling. ^_^*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	letter-spacing: -.01em;
+	line-height: 1.2em;
+	text-decoration: none;
+}
+
+nav {
+	background-color:#87dfe6;
+	align-items: center;
+}
+
+.navbar-brand {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.2em;
+	letter-spacing: .2em;
+	padding-left: 4.5em;
+}
+
+.nav-item {
+	font-size: .7em;
+}
+
+nav li {
+	margin-left: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Times New Roman', Times, serif;
+	color:black;
+	letter-spacing: .2em;
+}
+
+#sone {
+	padding-top:73rem;
+	min-height: 240vh;
+	background-color: white;
+	background-image: url(../img/bicainterior.png);
+	background-size:100% auto;
+	background-repeat: no-repeat;
+}
+
+#sone h1 {
+	text-align: center;
+}
+
+#sone p {
+	text-align: center;
+}
+
+.est {
+	font-family: 'Times New Roman', Times, serif;
+	color:black;
+	letter-spacing: 0.05em;
+}
+
+.col {
+	flex: 1;
+	text-align: center; 
+}
+
+.col img {
+	max-width: 100%;
+	height: auto; 
+	display: block; 
+	margin: 0 auto; 
+	padding: 50px; 
+	margin: 1em 0 3em; 
+  }
+
+#stwo {
+	min-height: 130vh;
+	background-color: white;
+}
+
+#menu-container {
+	background-color: #2c2015;
+	max-height: 50vh;
+	min-height: 25vh;
+	text-align: center;
+	background-image: url(../img/bicapinkdrink.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	color: white;
+}
+
+.col-sm-3 img {
+	border: .15em solid #6161617a;
+	border-radius: 5px;
+	max-height: 25em;
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: 16em;
+	margin-right: auto;
+}
+
+#menu-container h2 {
+	color: white;
+}
+
+.menu-header {
+	display: block;
+	padding: 7em 0 0 37em;
+}
+
+#menu-row {
+	display:flex;
+	padding: 10em 6em;
+	gap: 1em;
+}
+
+#sthree {
+	min-height: 100vh;
+	background-color: blue;
+}
+
+.loc-container {
+	background-color: #0e0e0e;
+	background-image: url(../img/bicapeony.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 19em;
+	padding: 6.5em 0 0 12.5em;
+	color: white;
+}
+
+.loc-container h2 {
+	color: white;
+}
+
+.map-container {
+	background-color: white;
+	padding: 3em 0 7em 10em;;
+}
+
+.map-container iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+#sfour {
+	padding-top:4rem;
+	padding-bottom: 2em;
+	min-height: 40vh;
+	background-color: #0e0e0e;
+	color: white;
+}
+
+#sfour h2 {
+	color: white;
+}
+
+#sfour label {
+	padding: .6em;
+}
+
+button {
+	margin: 2em;
+	background-color: rgb(243, 243, 243);
+	outline: none;
+	border: none;
+	border-radius: 40px;
+	padding: 14px 25px;
+}
+
+footer {
+	background-color:#87dfe6;
+	height: 31vh;
+	display:flex;
+	width: 100%;
+	padding: 2.5em 15%;
+}
+
+footer div {
+	text-align: center;
+}
+
+.col-1 {
+	text-align: center;
+	width:13em;
+}
+
+.col-2 {
+	flex-grow: 2;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 2em;
+	letter-spacing: .2em;
+	padding-top: 1em;
+}
+
+.social-icons i {
+	cursor: pointer;
+	margin: .5em;
+}
+
+.social-icons a {
+	text-decoration: none;
+	color: inherit;
+}
